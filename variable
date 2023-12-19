@@ -1,0 +1,21 @@
+1st program
+
+
+  package main
+
+import "fmt"
+
+func main() {
+
+	var x string
+
+	x = "first"
+
+	fmt.Println(x)
+
+	var y string
+
+	y = x + "second"
+
+	fmt.Println(y)
+}
