@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	x := map[string]int{"Kate": 28, "John": 32, "Liam": 45}
+	fmt.Print(x)
+
+	x["Max"] = 18
+	fmt.Println(x)
+}
