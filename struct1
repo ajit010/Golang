@@ -1,0 +1,62 @@
+package main
+
+import "fmt"
+
+//Declaring a struct type
+
+type Person struct {
+	Name   string
+	Age    int
+	job    string
+	salary int
+}
+
+func main() {
+
+	var pers1 Person
+	var pers2 Person
+	var pers3 Person
+
+	// Pers1 specification
+
+	pers1.Name = "Ajit"
+	pers1.Age = 27
+	pers1.job = "Cloud Engineer"
+	pers1.salary = 50000
+
+	// Pers2 specification
+
+	pers2.Name = "Harnoor"
+	pers2.Age = 24
+	pers2.job = "Java Developer"
+	pers2.salary = 70000
+
+	// Pers3 specification
+
+	pers3.Name = "Anand"
+	pers3.Age = 22
+	pers3.job = "API Engineer"
+	pers3.salary = 90000
+
+	//  ACCESS and PRINT Pers1 Specs
+
+	fmt.Println("Name: ", pers1.Name)
+	fmt.Println("Age: ", pers1.Age)
+	fmt.Println("Job: ", pers1.job)
+	fmt.Println("Salary: ", pers1.salary)
+
+	//  ACCESS and PRINT Pers2 Specs
+
+	fmt.Println("Name: ", pers2.Name)
+	fmt.Println("Age: ", pers2.Age)
+	fmt.Println("Job: ", pers2.job)
+	fmt.Println("Salary: ", pers2.salary)
+
+	//  ACCESS and PRINT Pers3 Specs
+
+	fmt.Println("Name: ", pers3.Name)
+	fmt.Println("Age: ", pers3.Age)
+	fmt.Println("Job: ", pers3.job)
+	fmt.Println("Salary: ", pers3.salary)
+
+}
