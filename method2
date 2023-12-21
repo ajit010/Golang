@@ -1,0 +1,23 @@
+// Go program to explain a method with with non-struct type receiver
+
+package main
+
+import "fmt"
+
+// Type Defintion
+
+type data int
+
+func (d1 data) multiply(d2 data) data {
+	return d1 * d2
+}
+
+// Main Function
+
+func main() {
+
+	value1 := data(22)
+	value2 := data(20)
+	res := value1.multiply(value2)
+	fmt.Println("Final Result: ", res)
+}
